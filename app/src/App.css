@@ -1,0 +1,76 @@
+html, body, #root, #root>div {
+  height: 100%
+}
+
+.navbar > .navbar-nav > .active > .nav-link {
+  color: #00bc8c;
+  text-shadow: 0 0 3px #00bc8c;
+}
+
+.bg-medium-grey {
+  background-color: #303030;
+}
+
+.bg-dark-grey {
+  background-color: #222;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-min-120 {
+  min-width: 120px;
+}
+
+.w-min-80 {
+  min-width: 80px;
+}
+
+.text-main {
+  color: #00bc8c;
+  text-shadow: 0 0 3px #00bc8c;
+}
+
+.text-sec {
+  color: #6bb8a4;
+}
+
+.btn:active {
+  transform: translate(1px, 2px);
+}
+
+.mytooltip {
+  display: inline-block;
+  visibility: hidden;
+  background-color: #1a1a1a;
+  opacity: 90%;
+  color: #d9d9d9;
+  font-size: 0.8em;
+  border-radius: 0px 5px 5px 5px;
+  width: 150px;
+  padding: 5px;
+  box-shadow: 3px 3px 3px black;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  z-index: 1;
+  overflow: auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.relative:hover .mytooltip {
+  visibility: visible;
+}
+
+.note {
+  font-size: 0.7em;
+}
+
+.weight_exceeded {
+  color: tomato;
+  text-shadow: 0 0 3px tomato;
+}
